@@ -3236,8 +3236,23 @@ footer {
   .mouse {
     display: none;
   }
+  .nav-box-mi {
+    display: flex;
+  }
+  .icon-button {
+    position: absolute;
+    top: 48px;
+    right: 15px;
+  }
 }
 @media (max-width: 420px) {
+  .header-personal .header-top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .icon-button {
+    top: 35px;
+  }
   .hero {
     height: 650px;
   }
